@@ -5,8 +5,10 @@ from sys import stdin
 from copy import deepcopy
 from html import parser
 
-# input = stdin.read().splitlines()
+# # # # # FILE INPUT # # # # #
 f = open("input.txt")
+# # # # # # # # # # # # # # #
+
 input = f.read().splitlines()
 
 global inputArray
